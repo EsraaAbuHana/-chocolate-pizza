@@ -1,0 +1,23 @@
+.bk{
+    background-image: image("/image/list-bg.png");
+
+}
+header div {
+    display: inline;
+
+}
+header div ul li {
+    display: inline;
+}
+.float {
+    float: left;
+}
+section div{
+    display: inline-block;
+}
+header div ul{ 
+    display: inline-block;
+}
+p img{
+    float: right;
+}
