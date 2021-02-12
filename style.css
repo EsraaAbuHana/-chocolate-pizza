@@ -24,7 +24,7 @@ section nav p{display: inline;}
         font-size: 13px;
     }
 form{
-   background-image: url("/image/list-bg.png");
+   background-image: url("image/list-bg.png");
    font-family: cursive;
    
    color: rgba(78, 1, 1, 0.781);
@@ -50,7 +50,7 @@ form div{
     width: 100%; */
     width: 100%;
  
-  background-image: url("/image/choco-pizza.png");
+  background-image: url("image/choco-pizza.png");
   background-repeat: no-repeat;
   background-size: contain;
   
