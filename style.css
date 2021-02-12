@@ -1,6 +1,71 @@
-.bk{
-    background-image: image("image/list-bg.png");
+body {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+h1{font-family: fantasy;
+    font-size: xx-large;}
+.gray-par{
+    color: rgb(143, 138, 138);
+}
+section nav p{display: inline;}
 
+    figure{
+        display: block;
+    float: right;
+}
+.float-r{
+    float: right;
+
+}
+    figcaption {
+        display: inline;
+        color: gray;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+form{
+   background-image: url("/image/list-bg.png");
+   font-family: cursive;
+   
+   color: rgba(78, 1, 1, 0.781);
+   
+    background-repeat: round;
+    background-size: cover;
+
+}
+form div{
+    margin-left: 15px;
+    /* width: 35%; */
+    margin-top: 30px;
+    margin-bottom: 64px;
+    font-size: 18px;
+    margin-left: 92px;
+}
+.main-img img{
+    /* margin: auto; */
+    max-width: 100%;
+    /* 
+    background-repeat: round;
+    background-size: cover;
+    width: 100%; */
+    width: 100%;
+ 
+  background-image: url("/image/choco-pizza.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.marginright{
+    margin-right: 200px;
+}
+main{
+    margin: auto;
+}
+hr{
+    height: 10px ;background-color: gray;
+}
+.ulimgs{
+    float: right;
 }
 header div {
     display: inline;
@@ -20,4 +85,38 @@ header div ul{
 }
 p img{
     float: right;
+}
+footer p{
+    text-align: center;
+    color: gray
+}
+button {
+    background-color: rgb(236, 73, 9);
+    color: white;
+    width: max-content;
+    float: right;
+    height: 50px;
+    width: 140px;
+}
+.light{
+    height: 1px;
+    background-color: gray;
+}
+.light img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+div img{
+    text-align: center;
+}
+table{
+    width: max-content;
+}
+.right{
+    float:right
+}
+article , footer p{
+    font-size: larger;
 }
